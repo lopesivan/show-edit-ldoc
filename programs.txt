@@ -1,0 +1,9 @@
+#-----------------------+---------------------------------------------------
+# original script       |  link name
+#-----------------------+---------------------------------------------------
+#code2.sh                |s.vim.settings
+#code3.sh                |s.vim.snips
+code.sh                 |s.examples
+edit-file.sh            |e.files
+edit-last-file.sh       |e.last-files
+ldoc.sh                 |ldoc
