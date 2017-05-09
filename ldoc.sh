@@ -36,7 +36,7 @@ file=$(
 find ${dir}/ -type f -name ldoc.\*| sort|
 while read doc; do
     head $doc |
-    sed  -n '/^\=\{64\}/,/^\=\{64\}/p' |
+    sed  -n '1,/^=\{64\}/p' |
     sed -e '1d' -e '$d'|
     sed.joinlines|
     sed 's/  */ /g'
